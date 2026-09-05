@@ -27,6 +27,7 @@ object pepe {
 
 
   method peso() = peso
+  method cumplisAnios(){edad += 1}
   method cambiarPeso(nuevoPeso) {peso = nuevoPeso}
   method consumir(cantidad, bebida) {
     bebidaConsumida = bebida
